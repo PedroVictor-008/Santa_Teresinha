@@ -1,0 +1,180 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Great+Vibes&family=Lobster&family=Rochester&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --cor0: #F39F9B;
+    --cor1: #F56C63;
+    --cor2: #CA4A4A;
+    --cor3: #F54D56;
+    --cor4: #F53232;
+    --cor5: #753B42;
+    --cor6: #F4A598;
+    --font-desenhada: "Great Vibes", serif;;
+    --font-destaque: "Lobster", serif;
+    --font-padrao:  "Bebas Neue", "Arial",serif;
+    --font-paragrafro: "Arial";
+}
+
+body{
+    background-color: var(--cor6);
+}
+
+body#principal{
+    background: linear-gradient(to bottom, var(--cor6), var(--cor2));
+}
+
+header{
+    background: linear-gradient(to top, var(--cor5), var(--cor2));
+    text-align: center;
+}
+
+
+header > h1{
+    font-family: var(--font-desenhada);
+    color: white;
+    text-shadow: 4.5px 2px rgba(0, 0, 0, 0.5);
+    font-weight: normal;
+    font-size: 3em;
+    padding-top: 15px;
+    padding-bottom: 12px;
+    margin-bottom: 0.5px;
+}
+
+nav{
+    font-family: var(--font-destaque);
+    background-color: var(--cor5);
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+nav > a{
+    color: white;
+    text-decoration: none;
+    padding: 7.5px;
+    font-size: 0.9em;
+    transition-duration: 0.95s;
+}
+
+nav > a:hover{
+    background-color: var(--cor6);
+    color: var(--cor4);
+    border-radius: 10px;
+}
+
+div.video{
+    background-color: var(--cor2);
+    margin: 10px 3px;
+    padding: 20px 15px;
+    padding-bottom: 50%;
+    position: relative;
+}
+
+div.video > iframe{
+    position: absolute;
+    padding: 5px 30px 0px 30px;
+    width: 90%;
+    height: 90%;
+}
+
+main {
+    background-color: white;
+    max-width: 1000px;
+    min-width: 300px;
+    margin: auto;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    padding: 20px;
+    border-radius: 25px;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.6);
+}
+
+main section p {
+    font-family: var(--font-paragrafro);
+    font-size: 1em;
+    text-align: justify;
+    text-indent: 15px;
+    line-height: 1.5em;
+}
+
+main p.ora{
+    text-indent: 25px;
+    line-height: 1.5em;
+}
+
+main h1{
+    font-family: var(--font-padrao);
+    font-weight: normal;
+    padding: 5.5px 0px 5.5px 0px;
+    text-shadow: 2px 1px 24px var(--cor1);
+}
+
+main h1#oration{
+    text-align: center;
+}
+
+main strong{
+    color: var(--cor2);
+}
+
+main pre{
+    font-family: var(--font-paragrafro);
+    font-size: 1em;
+    text-align: center;
+    line-height: 1.5em;
+}
+
+main  h2.oration{
+    text-align: center;
+}
+
+aside p{
+    font-family: var(--font-padrao);
+    font-size: 1em;
+    margin-bottom: 5.5px;
+    line-height: 1.5em;
+}
+
+aside a#nove{
+    color: white;
+    font-family: var(--font-destaque);
+    text-decoration: none;
+    font-size: 1.05em;
+    display: block;
+    text-align: center;
+    background-color: var(--cor2);
+    border-radius: 20px;
+    box-shadow: -4px 4px 15px black;
+    width: 220px;
+    height: 24px;
+    padding: 10px;
+    transition-duration: 0.5s;
+}
+
+aside a#nove:hover{
+    text-decoration: underline;
+}
+
+figure > img{
+    width: 40%;
+    display: block;
+    padding: 10px 0px 10px 0px;
+    margin: auto;
+    border-radius: 850px;
+}
+footer{
+    background-color: var(--cor5);
+    color: white;
+    font-family: var(--font-paragrafro);
+    font-size: 0.7em;
+    text-align: center;
+}
+
+footer > p{
+    padding: 3px 0px 1.5px 0px;
+}
