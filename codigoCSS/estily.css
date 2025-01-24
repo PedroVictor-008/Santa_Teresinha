@@ -132,6 +132,17 @@ main  h2.oration{
     text-align: center;
 }
 
+main section h1.desta{
+    font-family: var(--font-destaque);
+    padding: 5.5px 0px 5.5px 0px;
+    text-shadow: 2px 1px 24px var(--cor2);
+}
+
+main section p.textnove{
+    font-family: var(--font-paragrafro);
+    font-size: 1em;
+}
+
 aside p{
     font-family: var(--font-padrao);
     font-size: 1em;
