@@ -173,11 +173,11 @@ aside a#nove:hover{
 figure > img{
     background-attachment: fixed;
     background-size: contain;
-    max-width: 400px;
+    max-width: 500px;
     display: block;
     padding: 10px 0px 10px 0px;
     margin: auto;
-    border-radius: 50px;
+    border-radius: 450px;
 }
 footer{
     background-color: var(--cor5);
